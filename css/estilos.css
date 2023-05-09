@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #FFF2F2;
+	font-family: 'Roboto';
+}
+header.cabeceraPrincipal{
+	display: flex;
+	justify-content: space-between;
+
+	width: 90%;
+	margin: 0 auto;
+	
+}
+header.cabeceraPrincipal img{
+	padding: 2em 0;
+}
+nav.menuPrincipal{
+	background-color: #027846;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 0;
+}
+nav.menuPrincipal a{
+	color: #ffffff;
+	padding: 1em 2em;
+	text-decoration: none;
+}
+nav.menuPrincipal a:hover{
+	color: #027846;
+	background-color: #fff;
+}
+section.slider{
+	margin: 0 auto;
+	width: 90%;
+}
+section.slider img{
+	width: 100%;
+}
+.contenedor{
+	margin: 0 auto;
+	width: 90%;
+}
+section.atractivos h2{
+	text-align: center;
+	font-weight: 300;
+	font-size: 36px;
+	letter-spacing: 0.235em;
+	color: #07BB91;
+}
+.slogan{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.22em;
+	color: #655454;
+}
+.atractivosImg{
+	display: flex;
+	justify-content: space-evenly;
+}
+.espacio{
+	padding: 2em 0;
+}
+.piePagina{
+	background-color: #2C2B2B;
+	color: #E2E2E2;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2em 0;
+}
+
+.piePagina a{
+	color: #07BB91;
+	text-decoration: none;
+}
+.piePagina a:hover{
+	color: #fff;
+}

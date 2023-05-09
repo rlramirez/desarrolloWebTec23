@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atractivos turisticos del Ecuador</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+
+	<header class="cabeceraPrincipal" id="inicio">
+		<img src="../images/logoApp.png">
+		<section>
+			<input type="text" name="buscador" placeholder="Buscar...">
+		</section>
+	</header>
+
+	<nav class="menuPrincipal">
+		<a href="../index.html">Inicio</a>
+		<a href="../index.html#atractivos">Atractivos</a>
+		<a href="gastronomia.html">Gastronomia</a>
+		<a href="cultura.html">Cultura</a>
+		<a href="../index.html#hoteles">Hoteles</a>
+		<a href="contactos.html">Contactos</a>
+	</nav>
+	
+	<div class="espacio"></div>
+	<section class="contenedor">
+		<section class="atractivos" id="atractivos">
+			<h2>Formulario de contactos</h2>
+			<p class="slogan">Conoce los mejores lugares turísticos del Ecuador</p>
+			<div class="espacio"></div>
+					
+
+			<form method="post" action="validar.php">
+
+				<div class="grupoForm">
+					<label for="nombres">Nombres</label>
+					<input type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres completos"><br>
+				</div>
+				<div class="grupoForm">
+					<label for="apellidos">Apellidos</label>
+					<input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos completos"><br>
+				</div>
+				<div class="grupoForm">
+					<label for="correo">Correo</label>
+					<input type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico" required><br>
+				</div>
+
+
+				<button type="submit">Guardar</button>
+
+			</form>		
+
+
+		<div class="espacio"></div>
+			<section class="atractivosImg">
+				<img src="../images/atractivo1.jpg">
+				<img src="../images/atractivo2.jpg">
+				<img src="../images/atractivo3.jpg">
+				<img src="../images/atractivo4.jpg">
+			</section>
+		</section>
+		<div class="espacio"></div>
+		<div class="espacio"></div>
+		<div class="espacio"></div>
+		<div class="espacio"></div>
+
+
+	</section>
+	<section class="sponsor">
+		Imagenes de sponsor
+	</section>
+	<footer class="piePagina">
+		<section class="pie1">Derechos Reservados UTPL 2023</section>
+		<section class="pie1">
+			<h5>Mapa del sitio</h5>
+			<br><br>
+			<ul>
+				<li><a href="../index.html#inicio">Inicio</a></li>
+				<li><a href="../index.html#atractivos">Atractivos</a></li>
+				<li><a href="">Gastronomía</a></li>
+				<li>Cultura</li>
+				<li>Hoteles</li>
+				<li>Contactos</li>
+			</ul>
+
+		</section>
+		<section class="pie1">Pie 3</section>
+
+	</footer>
+</body>
+</html>
